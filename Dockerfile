@@ -6,7 +6,7 @@
 FROM ashangit/base:latest
 MAINTAINER Nicolas Fraison <nfraison@yahoo.fr>
 
-ENV UCHIWA_VERSION 0.9.0.beta-1
+ENV UCHIWA_VERSION 0.9.0-1
 
 # Deploy Uchiwa
 RUN yum install http://dl.bintray.com/palourde/uchiwa/uchiwa-${UCHIWA_VERSION}.x86_64.rpm -y
